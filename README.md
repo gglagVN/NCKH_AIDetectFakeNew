@@ -1,165 +1,98 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![License: MIT][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+# Phiếu đăng ký và thuyết minh đề tài nghiên cứu khoa học của sinh viên
+
+## 1. Cơ quan chủ trì
+- Trường Đại học Công nghiệp Hà Nội
+- Địa chỉ: Số 298 – Đường Cầu Diễn – Bắc Từ Liêm – Hà Nội
+- Điện thoại: 0243 765 5121
+
+## 2. Tên đề tài
+Nghiên cứu và phát triển AI phát hiện tin giả trên mạng xã hội
+
+## 3. Chủ nhiệm đề tài
+- Họ và tên: Đặng Tuấn Linh
+- Mã số sinh viên: 2023601070
+- Lớp: 2023DHKTPM - K18
+- Khoa: Công nghệ thông tin
+- Điện thoại: 0911 562 129
+- Email: gglag2112005@gmail.com
+
+## 4. Giảng viên hướng dẫn
+- Họ và tên: ThS. Nguyễn Tuấn Tú
+- Đơn vị công tác: Khoa Công nghệ thông tin, Trường Đại học Công nghiệp Hà Nội
+- Điện thoại: 0968 581 566
+- Email: Tunt@haui.edu.vn
+
+## 5. Sinh viên tham gia thực hiện đề tài
+| STT | Họ và tên | Mã số sinh viên | Lớp |
+|---|---|---|---|
+| 1 | Đặng Tuấn Linh | 2023601070 | 2023DHKTPM01-K18 |
+| 2 | Đinh Minh Cảnh | 2023601261 | 2023DHKTPM01-K18 |
+| 3 | Bùi Thanh Bình | 2023600790 | 2023DHKTPM01-K18 |
+| 4 | Nguyễn Đăng Khôi | 2023600817 | 2023DHKTPM01-K18 |
+
+## 6. Tình hình nghiên cứu ở nước ngoài
+- Các công ty và tổ chức quốc tế đã và đang áp dụng AI, đặc biệt là các mô hình xử lý ngôn ngữ tự nhiên (NLP), để phát hiện và ngăn chặn tin giả trên các nền tảng mạng xã hội như Facebook, Twitter, Reddit.
+- Nhiều nghiên cứu sử dụng các mô hình học sâu (Deep Learning) như BERT, RoBERTa, XLNet kết hợp với các kỹ thuật phân tích ngữ nghĩa để tăng độ chính xác trong phân loại tin giả.
+- Các dự án nổi bật như FakeNewsNet, LIAR dataset, và các hệ thống kiểm chứng thông tin tự động (Fact-checking) đã chứng minh khả năng ứng dụng hiệu quả của AI trong phát hiện tin giả.
+
+## 7. Tình hình nghiên cứu ở trong nước
+- Tại Việt Nam, vấn đề tin giả trên mạng xã hội đang ngày càng nghiêm trọng, đặc biệt trên Facebook, Zalo, TikTok.
+- Một số nhóm nghiên cứu và doanh nghiệp công nghệ đã bước đầu triển khai AI để phân tích và lọc tin giả, tuy nhiên còn hạn chế về dữ liệu tiếng Việt chất lượng cao và bộ công cụ NLP chuyên biệt cho tiếng Việt.
+- Các mô hình như PhoBERT, BERT Vietnamese và các công cụ NLP mã nguồn mở đang được thử nghiệm, nhưng chưa có giải pháp phổ biến và hiệu quả ở quy mô lớn.
+
+## 8. Mục tiêu của đề tài
+- Xây dựng mô hình AI sử dụng NLP để phân loại tin thật và tin giả trên mạng xã hội.
+- Nâng cao độ chính xác trong phát hiện tin giả tiếng Việt bằng cách áp dụng và tối ưu các mô hình học sâu (Deep Learning).
+- Đóng góp vào việc hạn chế tác động tiêu cực của tin giả, bảo vệ thông tin chính xác cho cộng đồng mạng.
+
+## 9. Nội dung nghiên cứu
+- Thu thập và xử lý dữ liệu tin thật/tin giả từ các nguồn uy tín (Kaggle, crawling từ báo chí, mạng xã hội).
+- Tiền xử lý văn bản tiếng Việt (tokenization, loại bỏ stopwords, chuẩn hóa dữ liệu).
+- Huấn luyện và so sánh các mô hình AI (Logistic Regression, LSTM, PhoBERT, BERT).
+- Đánh giá mô hình qua các chỉ số: Accuracy, Precision, Recall, F1-score.
+- Xây dựng ứng dụng demo hiển thị kết quả phát hiện tin giả.
+
+## 10. Mục tiêu kinh tế - xã hội
+- Giảm thiểu tác động tiêu cực của tin giả đối với kinh tế và xã hội.
+- Hỗ trợ cộng đồng nhận diện thông tin sai lệch, góp phần nâng cao nhận thức và an toàn thông tin.
+- Tạo cơ sở để các cơ quan, tổ chức áp dụng công nghệ AI vào kiểm duyệt và xác minh thông tin.
+
+## 11. Mục tiêu khoa học - công nghệ
+- Ứng dụng các mô hình AI tiên tiến trong xử lý ngôn ngữ tự nhiên tiếng Việt.
+- Phát triển và tối ưu thuật toán phát hiện tin giả phù hợp với đặc thù tiếng Việt.
+- Góp phần thúc đẩy chuyển đổi số và ứng dụng AI trong lĩnh vực báo chí, truyền thông.
+
+## 12. Tóm tắt nội dung đề tài
+Nghiên cứu và xây dựng mô hình AI phát hiện tin giả tiếng Việt trên mạng xã hội dựa vào dữ liệu văn bản. Ứng dụng các kỹ thuật NLP và Deep Learning để phân loại tin giả/tin thật và triển khai một ứng dụng demo hỗ trợ người dùng nhận diện tin giả.
+
+## 13. Thời gian, tiến độ thực hiện công việc
+
+| STT | Nội dung công việc | Kết quả đạt được | Thời gian bắt đầu - kết thúc | Người thực hiện |
+|---|---|---|---|---|
+| 1 | Thu thập và tiền xử lý dữ liệu tin giả/tin thật tiếng Việt | Bộ dữ liệu sạch và phân loại rõ ràng, sẵn sàng huấn luyện mô hình | 01/10/2024 – 01/12/2024 | Cả nhóm |
+| 2 | Huấn luyện và so sánh các mô hình AI (BERT, PhoBERT, LSTM…) | Mô hình AI với độ chính xác cao trong phát hiện tin giả tiếng Việt | 02/12/2024 – 15/01/2025 | Cả nhóm |
+| 3 | Xây dựng ứng dụng demo và đánh giá kết quả | Ứng dụng demo phát hiện tin giả + báo cáo đánh giá | 16/01/2025 – 01/03/2025 | Cả nhóm |
+
+## 14. Dự kiến kết quả đạt được
+- Báo cáo nghiên cứu khoa học đầy đủ.
+- Bộ dữ liệu tiếng Việt phục vụ phát hiện tin giả.
+- Mô hình AI có khả năng phân loại tin giả/tin thật với độ chính xác >85%.
+- Ứng dụng demo hỗ trợ phát hiện tin giả.
+
+## 15. Loại hình nghiên cứu
+- Nghiên cứu cơ bản / Ứng dụng / Thực nghiệm
+
+## 16. Lĩnh vực khoa học
+- Tự nhiên – Kỹ thuật – Công nghệ – Khoa học xã hội và nhân văn (ưu tiên Công nghệ thông tin)
+
+## 17. Cam kết
+Nhóm nghiên cứu và người hướng dẫn cam kết: tên, nội dung và kết quả nghiên cứu của đề tài không trùng lặp với các công trình đã công bố, không phải là đồ án/khóa luận tốt nghiệp của sinh viên, triển khai theo đúng kế hoạch. Nếu không thực hiện đúng, nhóm nghiên cứu và giảng viên hướng dẫn chịu hoàn toàn trách nhiệm theo quy định của nhà trường.
 
 
+---
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/rifkybujana/FND">
-    <img src="https://i.imgur.com/Wkx9XUI.png" width="180" height="140">
-  </a>
+Người lập phiếu (Chủ nhiệm đề tài): ____________________  Ngày .... tháng .... năm 2024
 
-  <h3 align="center">FND</h3>
+Giảng viên hướng dẫn: ____________________  Ngày .... tháng .... năm 2024
 
-  <p align="center">
-    Fake News Detection AI
-    <br />
-    <a href="https://github.com/rifkybujana/FND/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/rifkybujana/FND/issues">Request Feature</a>
-  </p>
-</p>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-FND is a machine learning project that were made to predict whether a news is fake or not. This project are using IndoBERT model trained by IndoLEM Team and fine-tuned on 3 different indonesian fake news dataset source with total 2220 news. And get 86.7% Validation Accuracy with 0.25 Validation Loss.
-
-[How to use it](#usage)
-
-
-### Built With
-
-* [Streamlit](https://www.streamlit.io/)
-* [Transformers](https://github.com/huggingface/transformers)
-* [Newspaper3k](https://newspaper.readthedocs.io/en/latest/)
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-  
-### Installation
-
-1. Clone the repo
-   ```sh
-   $ git clone https://github.com/rifkybujana/FND.git
-   ```
-   
-2. Install the required package
-   ```sh
-   $ python setup.py install
-   ```
-
-
-
-<!-- USAGE -->
-## Usage
-
-<small>Note: CLI Support comming soon</small>
-
-```sh
-$ streamlit run App.py
-```
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/rifkybujana/FND/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the GPL-3.0 License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-* Rifky Bujana Bisri - [@rifkybujanabisri](https://www.instagram.com/rifkybujanabisri/) - rifkybujanabisri@gmail.com
-* Aikyo Dzaki Aroef - [@aikibot](https://www.instagram.com/aikibot/) - aikyodzakiaroef@gmail.com
-
-Project Link: [https://github.com/rifkybujana/FND](https://github.com/rifkybujana/FND)
-
-
-
-## Acknowledgements
-
-Special Thanks to Intel, Orbit Future Academy and Indonesian Ministry of Education and Culture for holding AI For Youth Indonesia, because without it we can't make this project real or even we won't know anything about machine learning.
-
-* [kaggle](https://www.kaggle.com/c/fake-news/data)
-* [RAHUTOMO, FAISAL; Yanuar, Inggrid; ANDRIE ASMARA, ROSA (2018), “INDONESIAN HOAX NEWS DETECTION DATASET”, Mendeley Data, V1, doi: 10.17632/p3hfgr5j3m.1](http://dx.doi.org/10.17632/p3hfgr5j3m.1)
-* [Fajri Koto, Afshin Rahimi, Jey Han Lau, Timothy Baldwin](https://indolem.github.io/)
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/rifkybujana/FND.svg?style=for-the-badge
-[contributors-url]: https://github.com/rifkybujana/FND/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/rifkybujana/FND.svg?style=for-the-badge
-[forks-url]: https://github.com/rifkybujana/FND/network/members
-[stars-shield]: https://img.shields.io/github/stars/rifkybujana/FND.svg?style=for-the-badge
-[stars-url]: https://github.com/rifkybujana/FND/stargazers
-[issues-shield]: https://img.shields.io/github/issues/rifkybujana/FND.svg?style=for-the-badge
-[issues-url]: https://github.com/rifkybujana/FND/issues
-[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
-[license-url]: ./LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/rifkybujana
+Trưởng đơn vị: ____________________  Ngày .... tháng .... năm 2024
